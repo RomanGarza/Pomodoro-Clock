@@ -1,0 +1,114 @@
+html {
+    font-size: 18px;
+    font-family: 'Sigmar One', cursive;
+    
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#header {
+    width: 85%;
+    height: 6rem;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#header-text {
+    color: rgb(53, 99, 199);
+    font-size: 3rem;
+    padding-top: 2rem;
+    letter-spacing: 1px;
+}
+
+#break-controls, 
+#session-controls {
+    background-color: #ffffff;
+    width: 15rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:darkcyan;
+    border-radius: 55px;
+    border: transparent;
+    cursor: pointer;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+#break-length,
+#session-length {
+    font-size: 2rem;
+}
+
+#element1,
+#element2 {
+    width: 9rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#break-label,
+#session-label {
+    letter-spacing: 2px;
+    
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.9rem;
+}
+
+#display {
+    width: 18rem;
+    height: 10rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+    letter-spacing: 2px;
+}
+
+#time-left {
+    font-size: 2.5rem;
+    color: red;
+}
+
+#btn-div {
+    width: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 640px) { 
+    #info {
+        flex-direction: column;
+    }
+    #break-controls,
+    #session-controls {
+        margin-top: 1.2rem;
+    }
+}
